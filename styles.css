@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: dimgray;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.zak_text, .dalsi_info{
+    font-size: 20px;
+    list-style: none;
+}
+
+.zak_info, .dalsi_info{
+    border: solid black;
+    border-radius: 18px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 1300px;
+    margin: 50px auto auto;
+    background-color: green;
+}
+
+
+.zajimavosti_cards{
+    border: solid darkgreen;
+    border-radius: 18px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 1300px;
+    margin: 50px auto auto;
+    list-style: none;
+    font-size: 20px;
+    background-color: lightgray;
+}
+.nadpis_zaj{
+    font-size: 28px;
+    font: bold;
+}
+*{
+    list-style: none;
+}
+.zivotopis_nadpis{
+    text-align: center;
+}
+.zivotopis{
+    border: solid black 5px;
+    border-radius: 18px;
+    text-align: center;
+    width: 1300px;
+    margin: 20px auto auto;
+    font-size: 25px;
+
+}
+.obrazek{
+    text-align: center;
+}
